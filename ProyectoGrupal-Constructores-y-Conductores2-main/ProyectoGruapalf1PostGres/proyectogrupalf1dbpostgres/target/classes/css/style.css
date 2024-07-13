@@ -1,0 +1,30 @@
+/* Estilo para el VBox */
+.vbox {
+    -fx-spacing: 10; /* Espaciado entre hijos */
+    -fx-padding: 20; /* Padding alrededor del VBox */
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #FFC107; /* Dorado */
+    -fx-text-fill: black; /* Texto negro */
+    -fx-padding: 10px;
+    -fx-font-size: 16px; /* Tamaño de fuente más grande */
+    -fx-border-color: yellow; /* Borde amarillo */
+    -fx-border-width: 2px; /* Ancho del borde */
+}
+
+/* Estilo para el HBox que contiene los botones */
+.hbox {
+    -fx-spacing: 20; /* Espaciado entre hijos */
+    -fx-padding: 10; /* Padding alrededor del HBox */
+    -fx-alignment: top-center; /* Centra los hijos horizontalmente */
+}
+
+/* Estilo para el StackPane */
+.root {
+    -fx-background-image: url("/imagen/F1.jpg"); /* Imagen de fondo en formato JPEG */
+    -fx-background-size: cover; /* Ajusta la imagen al tamaño del StackPane */
+    -fx-background-position: center; /* Centra la imagen */
+    -fx-background-repeat: no-repeat; /* No repite la imagen */
+}
